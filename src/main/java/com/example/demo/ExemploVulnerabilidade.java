@@ -15,7 +15,7 @@ public class ExemploVulnerabilidade {
     public static void main(String[] args) {
         String userInput = args[0]; // Supondo que userInput seja a entrada do usuário
         
-        Statement statement = connection.createStatement();
+        Statement statement1 = connection.createStatement();
         
         // Consulta SQL vulnerável à injeção
         String query = "SELECT * FROM usuarios WHERE nome = '" + userInput + "'";

@@ -67,7 +67,7 @@
 		<repository>
 			<id>github</id>
 			<name>GitHub Packages</name>
-			<url>https://maven.pkg.github.com/Marianaajpereira/10CDLR_Devops</url>
+			<url>https://maven.pkg.github.com/Marianaajpereira/10CDLR_Devop</url>
 		</repository>
 	</distributionManagement>
 	<build>

@@ -10,15 +10,15 @@
 	</parent>
 	
 	<groupId>com.example</groupId>
-	<artifactId>demo</artifactId>
+	<artifactId>10cdlr-devops-dev</artifactId>
 	<version>0.0.2.7-SNAPSHOT</version>
 	<packaging>jar</packaging>
-	<name>demo</name>
+	<name>10cdlr-devops-dev</name>
 	<description>Demo project for Spring Boot</description>
 
 	<properties>
 		<java.version>11</java.version>
-		<sonar.organization>devopsmbalearning</sonar.organization>
+		<sonar.organization>marianaajpereira</sonar.organization>
   		<sonar.host.url>https://sonarcloud.io</sonar.host.url>
 	</properties>
 
@@ -67,7 +67,7 @@
 		<repository>
 			<id>github</id>
 			<name>GitHub Packages</name>
-			<url>https://maven.pkg.github.com/FabianoCarneiro/10CDLR_Devops</url>
+			<url>https://maven.pkg.github.com/Marianaajpereira/10CDLR_Devops</url>
 		</repository>
 	</distributionManagement>
 	<build>

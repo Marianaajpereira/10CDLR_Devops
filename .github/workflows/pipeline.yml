@@ -55,9 +55,7 @@ jobs:
       - name: Build and analyze
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Needed to get PR information, if any
-          #SONAR_TOKEN: ${{ secrets.SONAR_TOKEN_CDLR10 }}
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
-        #run: mvn -B verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar -Dsonar.qualitygate.wait=true -Dsonar.projectKey=marianaajpereira_10cdlr-devops-dev
         run: mvn -B verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar -Dsonar.projectKey=marianaajpereira_10cdlr-devops-dev
  
   build: 
@@ -158,5 +156,5 @@ jobs:
             fetch-depth: 0
        - name: teste
          shell: bash
-         run: sh 'src/main/scripts/testeFuncionas.sh'          
+         run: sh 'src/main/scripts/testeFuncionais.sh'          
     

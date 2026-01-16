@@ -192,4 +192,4 @@ jobs:
          with:
             app-name: devopsresource-on-app
             publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE }} 
-            package: '${{ github.workspace }}/artifact/*.jar'
+            package: '${{ github.workspace }}/target/*.jar'

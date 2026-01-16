@@ -84,10 +84,7 @@ jobs:
         #Set artifact name
         name: artifact
         #From this path
-        path: ./target/demo-0.0.2.7-SNAPSHOT.jar
-    
-    - name: Package
-      run: mvn package  
+        path: ./target/demo-0.0.2.7-SNAPSHOT.jar  
          
   deploy-STG:
     runs-on: ubuntu-latest

@@ -24,7 +24,7 @@ public class DemoApplication {
 	public String home(){
 		return "<html><body style='text-align: center; font-family: Arial, sans-serif; padding: 20px;'>" +
 		       "<h1>Bem-vindo! 🐶</h1>" +
-		       "<img src='https://images.unsplash.com/photo-1633722715463-d30628cebb4b?w=500' alt='Doguinho Fofo' style='border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);'>" +
+		       "<img src='doguinho.png' alt='Doguinho Fofo' style='border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);'>" +
 		       "</body></html>";
 	}
 
